@@ -1,6 +1,6 @@
 # Morphy — download
 
-**[Download the latest installer](https://github.com/casperaap/morphy-releases-/releases/latest/download/Morphy-Setup-0.1.2.exe)** (Windows)
+**[Download the latest installer](https://github.com/casperaap/morphy-releases-/releases/latest)** (Windows)
 
 Morphy is an infinite canvas with AI agents that build little apps ("cards") for you while you talk to them. It runs fully on your computer and uses **your own** AI accounts.
 
