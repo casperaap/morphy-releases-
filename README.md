@@ -1,6 +1,6 @@
 # Morphy — download
 
-**[Download the latest installer](https://github.com/casperaap/morphy-releases-/releases/latest)** (Windows)
+**[Download the latest installer](https://github.com/casperaap/morphy-releases-/releases/latest/download/Morphy-Setup.exe)** (Windows)
 
 Morphy is an infinite canvas with AI agents that build little apps ("cards") for you while you talk to them. It runs fully on your computer and uses **your own** AI accounts.
 
@@ -22,3 +22,4 @@ Updates install themselves automatically.
 ## Something broke?
 
 Grab the log file at `%APPDATA%\Morphy\logs\morphy.log` and send it to Casper with a screenshot. Thank you!
+
