@@ -17,10 +17,13 @@ At least one of these:
 
 - **Claude** — a Claude subscription. Claude Code comes built in; you only sign in.
 - **Codex** — a ChatGPT subscription and the Codex CLI: `npm install -g @openai/codex` (needs [Node.js](https://nodejs.org)).
+- **GitHub Copilot** — a Copilot plan and the Copilot CLI: `npm install -g @github/copilot`.
 - **Grok** — the Grok CLI (`grok`), signed in with your xAI account.
-- **OpenRouter** — nothing to install: connect it in Settings → Account. Free models included.
+- **Google Antigravity** — the Antigravity CLI: `winget install Google.AntigravityCLI`, signed in with your Google account.
+- **OpenRouter** — connect it in Settings → Account. Free models included. Runs through the Codex CLI, so install that too (see Codex above; no ChatGPT subscription needed).
+- **Ollama** — open models on your own computer: [Ollama](https://ollama.com) with a model that can use tools (for example `ollama pull gpt-oss:20b`), plus the Codex CLI.
 
-Updates install themselves automatically.
+Updates install themselves automatically — you can switch that off in Settings → General.
 
 ## Something broke?
 
