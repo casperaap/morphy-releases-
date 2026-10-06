@@ -1,12 +1,19 @@
-# Morphy — download
+# Morphy
+
+**[www.appmorphy.com](https://www.appmorphy.com)** · [Docs](https://www.appmorphy.com/docs) · [Download page](https://get.appmorphy.com)
+
+Morphy is the agentic workspace: all your agents, projects and tools on one canvas. Run Claude Code, Codex, Grok and more side by side, switch projects in a click, and never depend on one AI company. It runs on your own computer and uses **your own** AI accounts.
+
+This repository holds Morphy's installers and release notes. What Morphy does and how to use it is on [appmorphy.com](https://www.appmorphy.com).
+
+## Download
 
 - **Windows:** [Download Morphy-Setup.exe](https://github.com/casperaap/morphy-releases-/releases/latest/download/Morphy-Setup.exe)
 - **Mac with an Apple chip (M1 or later):** [Download Morphy-mac-arm64.dmg](https://github.com/casperaap/morphy-releases-/releases/latest/download/Morphy-mac-arm64.dmg)
 - **Mac with an Intel chip:** [Download Morphy-mac-x64.dmg](https://github.com/casperaap/morphy-releases-/releases/latest/download/Morphy-mac-x64.dmg)
+- **Linux (beta):** see [Morphy on Linux](https://www.appmorphy.com/docs/linux).
 
 Not sure which Mac you have? Apple menu → **About This Mac**: it says **Chip: Apple M…** or **Processor: Intel**. Or just use [get.appmorphy.com](https://get.appmorphy.com), which picks the right download for you.
-
-Morphy is an infinite canvas with AI agents that build little apps ("cards") for you while you talk to them. It runs fully on your computer and uses **your own** AI accounts.
 
 ## Installing
 
