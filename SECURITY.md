@@ -2,7 +2,7 @@
 
 ## Report a problem
 
-Found a security problem in Morphy? Please don't open a public issue. Email **security@appmorphy.com** with:
+Found a security problem in Morphy? Please don't open a public issue. Email **security@appmorphy.com**, or report it privately on GitHub: [Report a vulnerability](https://github.com/casperaap/morphy-releases-/security/advisories/new) (the **Security** tab of this repository). Include:
 
 - what you found, and what someone could do with it,
 - the steps to make it happen again,
