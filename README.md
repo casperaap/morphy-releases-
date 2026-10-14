@@ -20,7 +20,7 @@ Not sure which Mac you have? Apple menu → **About This Mac**: it says **Chip: 
 **Windows (10 or 11)**
 
 1. Download and run the installer. It installs per-user in a few seconds and starts automatically.
-2. **Windows will show a blue "Windows protected your PC" warning** — that's because the app isn't code-signed yet (coming later). Click **More info → Run anyway**.
+2. The installer is signed by **Apers**, Morphy's maker. While Morphy is new, Windows may still show a blue **"Windows protected your PC"** screen: click **More info**, check that it says **Publisher: Apers**, then **Run anyway**. If it says **Unknown publisher**, don't run it — that file isn't Morphy.
 
 **Mac (macOS 11 or later)**
 
@@ -44,7 +44,21 @@ At least one of these:
 - **OpenRouter** — connect it in Settings → Account. Free models included. Runs through the Codex CLI, so install that too (see Codex above; no ChatGPT subscription needed).
 - **Ollama** — open models on your own computer: [Ollama](https://ollama.com) with a model that can use tools (for example `ollama pull gpt-oss:20b`), plus the Codex CLI.
 
-Updates install themselves automatically — you can switch that off in Settings → General.
+Updates install themselves automatically — you can switch that off in Settings → General. Before an update installs, Morphy checks it: on Windows it must be signed by Apers, on a Mac macOS checks Apple's signature.
+
+## Check your download
+
+The Windows and Mac downloads are signed, and every release comes with a **SHA256SUMS.txt** listing the SHA-256 fingerprint of each file (GitHub shows the same fingerprint next to each file).
+
+- **Windows:** right-click the installer → **Properties** → **Digital Signatures**: the signer is **Apers**. Or in PowerShell: `Get-AuthenticodeSignature .\Morphy-Setup.exe` (Status **Valid**) and `Get-FileHash .\Morphy-Setup.exe`.
+- **Mac:** signed with the Developer ID **Casper Apers (49CA43438J)** and notarized by Apple. Check with `spctl --assess --type execute -vv /Applications/Morphy.app` (`source=Notarized Developer ID`), and `shasum -a 256` for the fingerprint.
+- **Linux:** the AppImage and .deb aren't signed; check them with `sha256sum -c SHA256SUMS.txt --ignore-missing`.
+
+More on how Morphy keeps you safe, and what it doesn't do yet: [appmorphy.com/security](https://www.appmorphy.com/security).
+
+## Security
+
+Found a security problem? Please don't open a public issue: email **security@appmorphy.com**. See [SECURITY.md](SECURITY.md).
 
 ## Something broke?
 
